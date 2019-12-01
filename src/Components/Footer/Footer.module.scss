@@ -1,0 +1,64 @@
+@import "../../Style/global";
+
+
+.FooterMiddle {
+    position: relative;
+    min-height: 500px;
+    background-image: url("https://ovatheme.com/em4u/wp-content/themes/em4u/assets/img/bg_footer.jpg");
+}
+
+.Dark {
+    background-color: rgba(28, 35, 63, 0.95);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.Info {
+    position: absolute;
+    left: 20%;
+    top: 50%;
+    color: white;
+    transform: $transformCenter;
+}
+
+.Info > p {
+    text-align: left;
+    font-weight: 100;
+    font-size: 18px;
+    margin: 28px 0;
+}
+
+.FooterBottom {
+    background-color: #000000de;
+
+    >* {
+        display: inline-block;
+    }
+}
+
+.FooterBottom ul {
+    margin: 10px 20px;
+}
+
+.FooterBottom a {
+    text-decoration: none;
+    color: #d2d2d2;
+}
+
+.FooterBottom a:hover {
+    color: #ff9f16;
+}
+
+.FooterBottom ul>li {
+    padding: 8px 2px;
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.FooterBottom>p {
+
+    color: #d2d2d2;
+}

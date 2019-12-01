@@ -1,0 +1,36 @@
+.Gallery {
+    background: #fff;
+    padding: 0;
+    border-radius: 6px;
+    position: relative;
+    display: block;
+    margin-left: 24px;
+    width: 54%;
+    float: right;
+
+    h3 {
+        width: 96%;
+        font-size: 24px;
+        font-weight: 700;
+        margin: 0 auto;
+        margin-bottom: 12px;
+        background: linear-gradient(-135deg, #e8e8e8, #fff);
+        padding: 8px 0;
+        box-shadow: -2px 3px 4px #cccccc;
+    }
+
+    h3:hover {
+        cursor: pointer;
+        background: linear-gradient(to left, #ffb6139c, #ffd7009e);
+        color: black;
+    }
+
+    img {
+        border-radius: 5px;
+        // width: 15%;
+        margin-right: 10px;
+        margin-top: 6px;
+        display: inline-block;
+        max-height: 120px;
+    }
+}

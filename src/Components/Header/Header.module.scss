@@ -1,0 +1,48 @@
+@import '../../Style/header';
+
+.Header {
+    background-color: #0c151f;
+    overflow: hidden;
+    padding: 4px 2px 0 2px;
+}
+
+.Header>* {
+    display: inline-block;
+}
+
+.UserSection {
+    float: right;
+    color: #ffffff;
+
+    :hover {
+        cursor: pointer;
+    }
+
+}
+
+.UserSection li {
+    display: inline-block;
+    padding: $paddingElement;
+}
+
+form.Search {
+    padding: $paddingElement;
+}
+
+form.Search>input {
+    border: 1px solid #49535e;
+    height: 32px;
+    width: 200px;
+    border-radius: 4px;
+    padding: 0 5px;
+    background-color: #0c151fdd;
+    box-sizing: border-box;
+    vertical-align: middle;
+
+
+}
+
+form.Search>input:hover {
+    background-color: #eee;
+    cursor: pointer;
+}

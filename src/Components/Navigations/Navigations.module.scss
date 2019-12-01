@@ -1,0 +1,14 @@
+.Navigations {
+    li {
+        display: inline-block;
+        color: #fff;
+        padding: 5px 8px;
+    }
+
+    li:hover {
+        cursor: pointer;
+        background: linear-gradient(to left, #ffb613, #ffd000);
+        color: #000000EE;
+        border-radius: 4px;
+    }
+}

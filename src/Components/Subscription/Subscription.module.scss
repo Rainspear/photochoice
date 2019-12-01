@@ -1,0 +1,32 @@
+.Subscription {
+    background-color: #FC4153;
+    padding: 32px;
+    > * {
+        display: inline-block;
+    }
+}
+.Subscription p {
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #555555;
+    margin-right: 25px;
+}
+
+.Subscription a {
+    background: white;
+    text-decoration: none;
+    color :#FC4153;
+    display: inline-block;
+    padding: 12px 14px;
+    font-size: 18px;
+    border-radius: 4px;
+    font-weight: 700;
+    vertical-align: super;
+    letter-spacing: -0.5px;
+}
+
+.Subscription a:hover {
+    cursor: pointer;
+    background: linear-gradient(to left,#ffb613,#ffd700);
+    color : #000000DD;
+}
